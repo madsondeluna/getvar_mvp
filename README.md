@@ -90,7 +90,7 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 ## Tecnologias Utilizadas
 
 - **Linguagem**: Python
-- **Framework**: Bootstrap, Flask (para interface web)
+- **Framework**: Sankemake, Bootstrap, Flask 
 - **Bancos de Dados**: Integrações com dbSNP, ClinVar e Ensembl
 
 ## Exemplo de Uso
