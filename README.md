@@ -28,7 +28,7 @@ O **GET<i>Var</i>** é uma ferramenta desenvolvida para **análise e anotação 
      - **Synonyms**: Nomes alternativos ou identificadores da variante.
      - **Ambiguity**: Nível de ambiguïdade na identificação da variante.
      - **Minor Allele**: Alelo menos frequente encontrado na população.
-     - **Mappings**: Informaçãoes adicionais de diferentes bancos e referências genômicas.
+     - **Mappings**: Informações adicionais de diferentes bancos e referências genômicas.
 
    - Os bancos consultados incluem **dbSNP**, **Ensembl** e **ClinVar**.
 
@@ -39,7 +39,7 @@ O **GET<i>Var</i>** é uma ferramenta desenvolvida para **análise e anotação 
 ## Tecnologias Utilizadas
 
 - **Linguagem**: Python
-- **Framework**: Bootstrap, Flask (para interface web)
+- **Framework**: Snakemake, Bootstrap e Flask
 - **Bancos de Dados**: Integrações com dbSNP, ClinVar e Ensembl
 
 ## Estrutura do Projeto
