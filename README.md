@@ -63,8 +63,8 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/madsondeluna/getvar.git
-   cd getvar
+   git clone https://github.com/madsondeluna/getvar_mvp.git
+   cd getvar_mvp
    ```
 
 2. Crie um ambiente virtual (opcional, mas recomendado):
@@ -74,18 +74,17 @@ Certifique-se de ter as seguintes ferramentas instaladas:
    source venv/bin/activate
    ```
 
-3. Instale as dependências:
+3. Instale o Snakemake:
 
    ```bash
-   pip install -r requirements.txt
+   pip install snakemake
    ```
 
 ## Execução
 
-1. Inicie o servidor local:
-
-   ```bash
-   python3 main.py
+1. Execute o snakemake:
+ ```bash
+   snakemake
    ```
 
 2. Acesse a aplicação no navegador em:
