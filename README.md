@@ -13,9 +13,15 @@ O **GET<i>Var</i>** é uma ferramenta desenvolvida para **análise e anotação 
 - **`main.py`**: Arquivo principal para executar a aplicação.
 - **`api_getters.py`**: Contém funções para integrar e buscar dados externos.
 - **`views.py`**: Gerencia as rotas e interações do usuário.
+- **`utils.py`**: Arquivo com funções auxiliares para processamento de dados.
+- **`Snakefile`**: Define os workflows automatizados usando Snakemake para gerenciar pipelines de análise.
 - **`templates/`**: Arquivos HTML para visualização de resultados.
-- **`static/`**: Arquivos de imagens e vídeos.
-- **`requirements.txt`**: Lista de dependências.
+- **`static/`**: Arquivos de imagens e vídeos usados pela aplicação.
+  - **`images/`**: Contém ícones, logos e outras imagens.
+  - **`videos/`**: Contém vídeos ilustrativos ou de demonstração.
+- **`requirements.txt`**: Lista de dependências necessárias para o projeto.
+- **`.gitignore`**: Arquivo para ignorar arquivos e diretórios desnecessários no controle de versão.
+- **`LICENSE`**: Arquivo contendo a licença do projeto.
 
 ## Requisitos de Instalação
 
@@ -23,6 +29,7 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 
 - Python >= 3.8
 - Gerenciador de pacotes `pip`
+- Snakemake >= 6.0
 
 ## Instalação
 
