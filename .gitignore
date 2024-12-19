@@ -1,0 +1,46 @@
+# Diretórios de ambiente virtual
+venv/
+.env/
+__pycache__/
+
+# Cache e arquivos compilados
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Dependências
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos gerados
+*.sqlite3
+*.env
+*.DS_Store
+*.so
+
+# Configurações específicas do sistema
+.idea/
+.vscode/
+*.iml
+
+# Testes e relatórios
+coverage.xml
+*.cover
+*.pytest_cache/
+
+# Arquivos de pacotes Python
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Arquivos de configuração local
+local_settings.py
+
+# Arquivos snakemake 
+.snakemake/
