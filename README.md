@@ -57,9 +57,9 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 
 1. Execute o snakemake:
  
-```bash
-snakemake
-   ```
+  ```bash
+  snakemake
+     ```
 
 2. Acesse a aplicação no navegador em:
 
