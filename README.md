@@ -94,8 +94,7 @@ Certifique-se de ter as seguintes ferramentas instaladas:
    ```
 
 2. Acesse a aplicação no navegador em:
-
-   ```
+ ```
    http://localhost:5000
    ```
 
