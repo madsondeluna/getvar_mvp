@@ -8,66 +8,6 @@ O **GET<i>Var</i>** é uma ferramenta desenvolvida para **análise e anotação 
 - **Anotação Funcional**: Integração de variantes com consulta em bancos de dados genéticos.
 - **Automatização**: Workflow padronizado para maior eficiência.
 
-## Estrutura do Projeto
-
-- **`main.py`**: Arquivo principal para executar a aplicação.
-- **`api_getters.py`**: Contém funções para integrar e buscar dados externos.
-- **`views.py`**: Gerencia as rotas e interações do usuário.
-- **`utils.py`**: Arquivo com funções auxiliares para processamento de dados.
-- **`Snakefile`**: Define os workflows automatizados usando Snakemake para gerenciar pipelines de análise.
-- **`templates/`**: Arquivos HTML para visualização de resultados.
-- **`static/`**: Arquivos de imagens e vídeos usados pela aplicação.
-  - **`images/`**: Contém ícones, logos e outras imagens.
-  - **`videos/`**: Contém vídeos ilustrativos ou de demonstração.
-- **`requirements.txt`**: Lista de dependências necessárias para o projeto.
-- **`.gitignore`**: Arquivo para ignorar arquivos e diretórios desnecessários no controle de versão.
-- **`LICENSE`**: Arquivo contendo a licença do projeto.
-
-## Requisitos de Instalação
-
-Certifique-se de ter as seguintes ferramentas instaladas:
-
-- Python >= 3.8
-- Gerenciador de pacotes `pip`
-- Snakemake >= 6.0
-
-## Instalação
-
-1. Clone o repositório:
-
-   ```bash
-   git clone https://github.com/madsondeluna/getvar_mvp.git
-   cd getvar_mvp
-   ```
-
-2. Crie um ambiente virtual (opcional, mas recomendado):
-
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
-
-3. Instale o Snakemake:
-
-   ```bash
-   pip install snakemake
-   ```
-
-## Execução
-
-1. Execute o snakemake:
- 
-  ```bash
-  snakemake
-     ```
-
-2. Acesse a aplicação no navegador em:
-
-   ```
-   http://localhost:5000
-   ```
-
-
 ## Workflow da Aplicação
 
 1. **Entrada de Dados**:
@@ -99,8 +39,65 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 ## Tecnologias Utilizadas
 
 - **Linguagem**: Python
-- **Framework**: Sankemake, Bootstrap, Flask 
+- **Framework**: Bootstrap, Flask (para interface web)
 - **Bancos de Dados**: Integrações com dbSNP, ClinVar e Ensembl
+
+## Estrutura do Projeto
+
+- **`main.py`**: Arquivo principal para executar a aplicação.
+- **`api_getters.py`**: Contém funções para integrar e buscar dados externos.
+- **`views.py`**: Gerencia as rotas e interações do usuário.
+- **`utils.py`**: Arquivo com funções auxiliares para processamento de dados.
+- **`Snakefile`**: Define os workflows automatizados usando Snakemake para gerenciar pipelines de análise.
+- **`templates/`**: Arquivos HTML para visualização de resultados.
+- **`static/`**: Arquivos de imagens e vídeos usados pela aplicação.
+  - **`images/`**: Contém ícones, logos e outras imagens.
+  - **`videos/`**: Contém vídeos ilustrativos ou de demonstração.
+- **`requirements.txt`**: Lista de dependências necessárias para o projeto.
+- **`.gitignore`**: Arquivo para ignorar arquivos e diretórios desnecessários no controle de versão.
+- **`LICENSE`**: Arquivo contendo a licença do projeto.
+
+## Requisitos de Instalação
+
+Certifique-se de ter as seguintes ferramentas instaladas:
+
+- Python >= 3.8
+- Gerenciador de pacotes `pip`
+
+## Instalação
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/madsondeluna/getvar_mvp.git
+   cd getvar_mvp
+   ```
+
+2. Crie um ambiente virtual (opcional, mas é recomendado):
+
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. Instale o Snakemake:
+
+   ```bash
+   pip install snakemake
+   ```
+
+## Execução
+
+1. Execute o snakemake:
+ ```bash
+   snakemake
+   ```
+
+2. Acesse a aplicação no navegador em:
+
+   ```
+   http://localhost:5000
+   ```
 
 ## Exemplo de Uso
 
@@ -120,4 +117,4 @@ Madson Aragão\
 [madsondeluna@gmail.com](mailto\:madsondeluna@gmail.com)\
 [LinkedIn](https://www.linkedin.com/in/madsonaragao)
 
-🌟 Created by Madson Aragão in somewhere, where bytes and biomolecules collide.
+🌟 Created by Madson Aragão in somewhere, where bytes and biomolecules collide. 
