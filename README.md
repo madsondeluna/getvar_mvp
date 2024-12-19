@@ -28,9 +28,9 @@ O **GET<i>Var</i>** é uma ferramenta desenvolvida para **análise e anotação 
      - **Synonyms**: Nomes alternativos ou identificadores da variante.
      - **Ambiguity**: Nível de ambiguïdade na identificação da variante.
      - **Minor Allele**: Alelo menos frequente encontrado na população.
-     - **Mappings**: Mapemanto da variante em diferentes bancos e referências genômicas.
+     - **Mappings**: Informaçãoes adicionais de diferentes bancos e referências genômicas.
 
-   - Os bancos consultados incluem **dbSNP** e **Ensembl**.
+   - Os bancos consultados incluem **dbSNP**, **Ensembl** e **ClinVar**.
 
 3. **Anotação Funcional**:
 
