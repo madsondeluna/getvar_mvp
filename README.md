@@ -56,7 +56,8 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 ## Execução
 
 1. Execute o snakemake:
- ```bash
+ 
+```bash
    snakemake
    ```
 
