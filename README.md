@@ -8,40 +8,6 @@ O **GET<i>Var</i>** é uma ferramenta desenvolvida para **análise e anotação 
 - **Anotação Funcional**: Integração de variantes com consulta em bancos de dados genéticos.
 - **Automatização**: Workflow padronizado para maior eficiência.
 
-## Workflow da Aplicação
-
-1. **Entrada de Dados**:
-
-   - Apenas arquivos **VCF** são válidos como entrada.
-
-2. **Identificação de Variantes**:
-
-   - A aplicação faz anotações com os seguintes campos:
-     - **ID**: Identificador único da variante no banco de dados de referência.
-     - **CHROM**: Cromossomo onde a variante está localizada.
-     - **REF**: Alelo de referência no genoma.
-     - **ALT**: Alelo alternativo identificado.
-     - **Population Allele Frequency**: Frequência da variante em populações conhecidas.
-     - **Var Class**: Classe da variante, como SNV (Single Nucleotide Variant) ou INDEL.
-     - **Most Severe Consequence**: Consequência mais grave da variante em relação à função do gene.
-     - **Clinical Significance**: Relevância clínica da variante com base em dados de referência.
-     - **Synonyms**: Nomes alternativos ou identificadores da variante.
-     - **Ambiguity**: Nível de ambiguïdade na identificação da variante.
-     - **Minor Allele**: Alelo menos frequente encontrado na população.
-     - **Mappings**: Mapemanto da variante em diferentes bancos e referências genômicas.
-
-   - Os bancos consultados incluem **dbSNP** e **Ensembl**.
-
-3. **Anotação Funcional**:
-
-   - Integração com bancos de dados como dbSNP, ClinVar e Ensembl para fornecer informações funcionais e clínicas sobre as variantes.
-
-## Tecnologias Utilizadas
-
-- **Linguagem**: Python
-- **Framework**: Bootstrap, Flask (para interface web)
-- **Bancos de Dados**: Integrações com dbSNP, ClinVar e Ensembl
-
 ## Estrutura do Projeto
 
 - **`main.py`**: Arquivo principal para executar a aplicação.
@@ -92,6 +58,40 @@ Certifique-se de ter as seguintes ferramentas instaladas:
    ```
    http://localhost:5000
    ```
+
+## Workflow da Aplicação
+
+1. **Entrada de Dados**:
+
+   - Apenas arquivos **VCF** são válidos como entrada.
+
+2. **Identificação de Variantes**:
+
+   - A aplicação faz anotações com os seguintes campos:
+     - **ID**: Identificador único da variante no banco de dados de referência.
+     - **CHROM**: Cromossomo onde a variante está localizada.
+     - **REF**: Alelo de referência no genoma.
+     - **ALT**: Alelo alternativo identificado.
+     - **Population Allele Frequency**: Frequência da variante em populações conhecidas.
+     - **Var Class**: Classe da variante, como SNV (Single Nucleotide Variant) ou INDEL.
+     - **Most Severe Consequence**: Consequência mais grave da variante em relação à função do gene.
+     - **Clinical Significance**: Relevância clínica da variante com base em dados de referência.
+     - **Synonyms**: Nomes alternativos ou identificadores da variante.
+     - **Ambiguity**: Nível de ambiguïdade na identificação da variante.
+     - **Minor Allele**: Alelo menos frequente encontrado na população.
+     - **Mappings**: Mapemanto da variante em diferentes bancos e referências genômicas.
+
+   - Os bancos consultados incluem **dbSNP** e **Ensembl**.
+
+3. **Anotação Funcional**:
+
+   - Integração com bancos de dados como dbSNP, ClinVar e Ensembl para fornecer informações funcionais e clínicas sobre as variantes.
+
+## Tecnologias Utilizadas
+
+- **Linguagem**: Python
+- **Framework**: Bootstrap, Flask (para interface web)
+- **Bancos de Dados**: Integrações com dbSNP, ClinVar e Ensembl
 
 ## Exemplo de Uso
 
