@@ -2,6 +2,12 @@
 
 O **GET<i>Var</i>** é uma ferramenta desenvolvida para **análise e anotação de variantes genéticas**. Com um workflow eficiente, a ferramenta integra dados de variantes genômicas para identificar e interpretar anotações de variantes de forma rápida e precisa em bancos de dados públicos.
 
+## Diagrama de Fluxo da Aplicação
+
+Abaixo, você encontra um diagrama de fluxo que detalha da aplicação.
+
+<img src="MVP_diagram.svg" alt="Diagrama de Fluxo da Aplicação" width="600"/>
+
 ## Funcionalidades
 
 - **Análise de Variantes**: Processamento e visualização dados de variantes genéticas.
