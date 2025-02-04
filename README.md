@@ -115,7 +115,7 @@ Submeta um arquivo **VCF** através da interface web. O sistema processará os d
 
 <br>
 
-2. Tela de Visualização do VCF bruto e filtros:
+2. Tela de visualização do VCF bruto e funçõs de filtros:
 ![Tela inicial](imgs_exemp/2.png)
 
 <br>
