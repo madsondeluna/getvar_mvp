@@ -108,6 +108,21 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 
 Submeta um arquivo **VCF** através da interface web. O sistema processará os dados, realizará as anotações e disponibilizará um relatório final em formato tabular que pode ser filtrada através das respectivas anotações. 
 
+## Telas do MVP
+
+1. Tela inicial:
+![Tela inicial](imgs_exemp/1.png)
+
+<br>
+
+2. Tela de Visualização do VCF bruto e filtros:
+![Tela inicial](imgs_exemp/2.png)
+
+<br>
+
+3. Resultados das anotação das varientes via **dbSNP**, **Ensembl** e **ClinVar**: 
+![Tela inicial](imgs_exemp/3.png)
+
 ## Informaçõs Adicionais de Uso 
 
 As APIs REST do dbSNP, ClinVar e Ensembl possuem um limite de até 30 requisições por solicitação. Por isso, a aplicação pode apresentar instabilidade ou lentidão em alguns momentos. Além disso, os servidores dessas plataformas ocasionalmente podem ficar instáveis ou não responder adequadamente às requisições. Nesses casos, o manual das APIs recomenda a resubmissão dos dados para completar o processo de anotação.
